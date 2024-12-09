@@ -1,0 +1,1 @@
+import{c as s,d as n,a as r,f as o,o as u,g as d}from"./hwBXkv5p.js";const p={__name:"code",setup(l){const{debug:t}=d();return(c,e)=>(u(),s("div",null,[e[1]||(e[1]=n(" editor ")),r("button",{onClick:e[0]||(e[0]=(...a)=>o(t)&&o(t)(...a))},"debug")]))}};export{p as default};
