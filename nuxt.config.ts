@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/ImageEditor/'
   },
+  nitro: {
+    prerender: {
+      routes: ['/'],
+    },
+  },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
 
