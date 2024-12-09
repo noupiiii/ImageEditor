@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: 'ImageEditor'
+    baseURL: '/ImageEditor/'
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
